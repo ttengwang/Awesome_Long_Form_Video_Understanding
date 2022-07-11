@@ -24,9 +24,10 @@ Real-world videos are usually long, untrimmed and contrain serveral actions (eve
 * Video Paragraph Captioning as a Text Summarization Task, ACL 2021.
 
 
-## Temporal Action Proposals
-
-## Temporal Action Detection
+## Action Localization
+#### Temporal Action Proposals
+#### Temporal Action Localization
+#### Audio-Visual Temporal Localization
 
 ## Temporal Video Grounding
 
