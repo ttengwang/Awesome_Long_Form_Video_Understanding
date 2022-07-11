@@ -36,3 +36,4 @@ Real-world videos are usually long, untrimmed and contrain serveral actions (eve
 # TODO
 - [ ] add dataset
 - [ ] add pretraining, detection and grounding papers
+- [ ] add a plot to illustrate differences between untrimmed videos and trimmed videos, and also between different localization tasks
