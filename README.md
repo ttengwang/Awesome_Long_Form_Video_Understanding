@@ -26,7 +26,20 @@ Real-world videos are usually long, untrimmed and contrain serveral actions (eve
 
 ## Action Localization
 #### Temporal Action Proposals
+* Relaxed Transformer Decoders for Direct Action Proposal Generation, ICCV 2021
+* Fast learning of temporal action proposal via dense boundary generator, AAAI 2020
+* BMN: boundary-matching network for temporal action proposal generation, ICCV 2019
+* BSN: boundary sensitive network for temporal action proposal generation, ECCV 2018
+*  
 #### Temporal Action Localization
+* Deep Learning-based Action Detection in Untrimmed Videos: A Survey
+* MS-TCT: Multi-Scale Temporal ConvTransformer for Action Detection, CVPR 2022
+* Learning To Refactor Action and Co-Occurrence Features for Temporal Action Localization, CVPR 2022
+* Learning to Refactor Action and Co-occurrence Features for Temporal Action Localization, CVPR 2022
+* An Empirical Study of End-to-End Temporal Action Detection, CVPR 2022
+* Modeling multi-label action dependencies for temporal action localization, CVPR 2021
+* Coarse-Fine Networks for Temporal Activity Detection in Videos, CVPR 2021
+* Learning salient boundary feature for anchor-free temporal action localization, CVPR 2021
 #### Audio-Visual Temporal Localization
 
 ## Temporal Video Grounding
