@@ -1,5 +1,5 @@
 # Awesome Untrimmed Video Understanding
-Real-world videos are usually long, untrimmed and contrain serveral actions (events). 
+Real-world videos are usually long, untrimmed and contain serveral actions (events). 
 
 ## Representation Learning
 * Learning from Untrimmed Videos: Self-Supervised Video Representation Learning with Hierarchical Consistency
@@ -30,9 +30,9 @@ Real-world videos are usually long, untrimmed and contrain serveral actions (eve
 * Fast learning of temporal action proposal via dense boundary generator, AAAI 2020
 * BMN: boundary-matching network for temporal action proposal generation, ICCV 2019
 * BSN: boundary sensitive network for temporal action proposal generation, ECCV 2018
-*  
+
 #### Temporal Action Localization
-* Deep Learning-based Action Detection in Untrimmed Videos: A Survey
+* Deep Learning-based Action Detection in Untrimmed Videos: A Survey, Arxiv 2021
 * MS-TCT: Multi-Scale Temporal ConvTransformer for Action Detection, CVPR 2022
 * Learning To Refactor Action and Co-Occurrence Features for Temporal Action Localization, CVPR 2022
 * Learning to Refactor Action and Co-occurrence Features for Temporal Action Localization, CVPR 2022
@@ -40,13 +40,32 @@ Real-world videos are usually long, untrimmed and contrain serveral actions (eve
 * Modeling multi-label action dependencies for temporal action localization, CVPR 2021
 * Coarse-Fine Networks for Temporal Activity Detection in Videos, CVPR 2021
 * Learning salient boundary feature for anchor-free temporal action localization, CVPR 2021
-#### Audio-Visual Temporal Localization
+* Temporal action localization in untrimmed videos via multi-stage CNNs, CVPR 2016.
+
+#### Audio-Visual Event Localization
+Audio-Visual Event Localization in Unconstrained Videos, ECCV 2018.
 
 ## Temporal Video Grounding
+* The Elements of Temporal Sentence Grounding in Videos: A Survey and Future Directions, Arxiv 2022.
 
 ## Untrimmed Video Datasets
+| Dataset  | Annotation | Source | Number | Total hours | Tasks | link | Date Released | 
+| ----  | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| ActivityNet 1.3 | timestamps + action | Youtube | 20k | - | Action Localization | | |
+| ActivityNet Captions | timestamps + captions | Youtube | 20k | - | Dense captioning, video grounding |
+| THUMOS | timestamps + action | - | - | - | Action Localization | | |
+| YouCook2 | timestamps + captions | Cooking Videos | - | - | Dense captioning | | |
+| MovieNet | timestamps + captions + place/action/style tags | Movies | 1.1k | >2h | movie understanding | [MovieNet](https://movienet.site/) | 2020 |
+| Charades | timestamps + action labels | Daily Activities | 9.8k | 30s | action recognition, action localization | [Charades](https://prior.allenai.org/projects/charades) | 2017 | 
+| Charades-STA | timestamps + captions | Daily Activities| 9.8k | 30s | video grounding | [Charades-STA](https://github.com/jiyanggao/TALL) | 2017
+| TACoS | timestamps + captions | Cooking | - | - | video grounding | [TACoS]
+| DiDeMo |
+| TACoS Multi-Level | timestamps + captions | Cooking | - | - | Dense captioning | [TACoS Multi-Level](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/tacos-multi-level-corpus)
+| VIOLIN |  | YouTube and TV shows| 6.7k / 15.8k clips | | Video-and-Language Inference | [VIOLIN](https://github.com/jimmy646/violin)
+| HowTo100M | boundaries + captions |  | 1.22M/136M clips | 582h | pretraining | - |
+| YT-temporal180M |  boundaries + captions | - | - | - |  pretraining | - | 
 
 # TODO
-- [ ] add dataset
+- [ ] add more details of datasets
 - [ ] add pretraining, detection and grounding papers
 - [ ] add a plot to illustrate differences between untrimmed videos and trimmed videos, and also between different localization tasks
