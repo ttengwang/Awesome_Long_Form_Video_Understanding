@@ -15,7 +15,8 @@ Real-world videos are usually long, untrimmed and contain serveral actions (even
 * A Better Use of Audio-Visual Cues: Dense Video Captioning with Bi-modal Transformer, BMVC 2020 
 * Sketch, Ground, and Refine: Top-Down Dense Video Captioning, CVPR 2021.
 * End-to-End Dense Video Captioning with Parallel Decoding, ICCV 2021
-#### Multi-sentence Captioining (Paragraph Captioning)
+
+#### Video Paragraph Captioning
 * Adversarial Inference for Multi-Sentence Video Description, CVPR 2019
 * COOT: Cooperative Hierarchical Transformer for Video-Text Representation Learning, NIPS 2020.
 * Multimodal Pretraining for Dense Video Captioning, AACL 2020.
@@ -64,6 +65,10 @@ Audio-Visual Event Localization in Unconstrained Videos, ECCV 2018.
 | VIOLIN |  | YouTube and TV shows| 6.7k / 15.8k clips | | Video-and-Language Inference | [VIOLIN](https://github.com/jimmy646/violin)
 | HowTo100M | boundaries + captions |  | 1.22M/136M clips | 582h | pretraining | - |
 | YT-temporal180M |  boundaries + captions | - | - | - |  pretraining | - | 
+
+## Untrimmed Video Feature Extraction Tools
+
+* https://github.com/zjr2000/Untrimmed-Video-Feature-Extractor
 
 # TODO
 - [ ] add more details of datasets
