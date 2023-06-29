@@ -1,4 +1,4 @@
-# Awesome Untrimmed Video Understanding
+# Awesome Long-Term Video Understanding
 Real-world videos are usually long, untrimmed and contain serveral actions (events). 
 
 ## Representation Learning
