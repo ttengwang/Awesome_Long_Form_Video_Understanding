@@ -1,5 +1,5 @@
 # Awesome Long-Term Video Understanding
-Real-world videos are usually long, untrimmed and contain serveral actions (events). 
+Real-world videos are usually long, untrimmed, and contain several actions (events). Traditionally, video understanding has focused on short-term analysis, such as action recognition, video object detection/segmentation, or scene understanding in individual video frames or short video clips. However, with the advent of more advanced technologies and the increasing availability of large-scale video datasets, researchers have started exploring long-term video understanding. It involves developing methods that can recognize and understand complex activities, events, or interactions that unfold over longer durations of time. This includes tasks like temporal action detection, video summarization, dense video captioning, video grounding, and future event prediction, among others.
 
 ## Representation Learning
 * Learning from Untrimmed Videos: Self-Supervised Video Representation Learning with Hierarchical Consistency
