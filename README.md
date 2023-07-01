@@ -6,20 +6,20 @@ Real-world videos are usually long, untrimmed, and contain several actions (even
 This repository curates a collection of research works specifically focused on long-term videos. This is an active repository and your contributions are always welcome!
   
   
-- [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding )
-  - [Representation Learning](#representation-learning )
-  - [Efficient Long-Term Modeling](#efficient-long-term-modeling )
-  - [Action Localization](#action-localization )
-    - [Temporal Action Localization](#temporal-action-localization )
-    - [Audio-Visual Event Localization](#audio-visual-event-localization )
-  - [Dense Video Captioning](#dense-video-captioning )
-  - [Temporal Video Grounding](#temporal-video-grounding )
-  - [Long-Term Video Prediction](#long-term-video-prediction )
-  - [Other Tasks](#other-tasks )
-  - [Datasets & Tools](#datasets--tools )
-    - [Long-Term (Untrimmed) Video Datasets](#long-term-untrimmed-video-datasets )
-    - [Video Feature Extractor](#video-feature-extractor )
-  - [TODO](#todo )
+- [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding)
+  - [Representation Learning](#representation-learning)
+  - [Efficient Modeling in Long-Term Videos](#efficient-modeling-in-long-term-videos)
+  - [Action Localization](#action-localization)
+    - [Temporal Action Localization](#temporal-action-localization)
+    - [Audio-Visual Event Localization](#audio-visual-event-localization)
+  - [Dense Video Captioning](#dense-video-captioning)
+  - [Temporal Video Grounding](#temporal-video-grounding)
+  - [Long-Term Video Prediction](#long-term-video-prediction)
+  - [Other Tasks](#other-tasks)
+  - [Datasets \& Tools](#datasets--tools)
+    - [Long-Term (Untrimmed) Video Datasets](#long-term-untrimmed-video-datasets)
+    - [Video Feature Extractor](#video-feature-extractor)
+  - [TODO](#todo)
   
 ##  Representation Learning
   
@@ -31,7 +31,7 @@ This repository curates a collection of research works specifically focused on l
 * TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks, ICCVW 2021.
 * COOT: Cooperative Hierarchical Transformer for Video-Text Representation Learning, NIPS 2020.
   
-##  Efficient Long-Term Modeling
+##  Efficient Modeling in Long-Term Videos
   
   
 * MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition, CVPR 2022.
@@ -46,7 +46,7 @@ This repository curates a collection of research works specifically focused on l
 * [Github repo: Awesome Weakly Supervised Temporal Action Localization](https://github.com/Pilhyeon/Awesome-Weakly-Supervised-Temporal-Action-Localization )
 * [Github repo: Awesome Temporal Action Localization](https://github.com/Alvin-Zeng/Awesome-Temporal-Action-Localization )
 * [Github repo: Awesome Temporal Action Detection Temporal Action Proposal Generation](https://github.com/zhenyingfang/Awesome-Temporal-Action-Detection-Temporal-Action-Proposal-Generation )
-* A survey on temporal action localization, IEEE Access 2020.
+* [survey] A survey on temporal action localization, IEEE Access 2020.
   
 ***Latest Papers (after 2023)***
 * ETAD: Training Action Detection End to End on a Laptop, CVPR 2023.
@@ -110,7 +110,7 @@ This repository curates a collection of research works specifically focused on l
 ***Resources*:**
 * [survey] The Elements of Temporal Sentence Grounding in Videos: A Survey and Future Directions, Arxiv 2022.
 * [survey] A survey on temporal sentence grounding in videos, ACM TOMM 2023.
-* A survey on video moment localization, ACM Computing Surveys, 2023.
+* [survey] A survey on video moment localization, ACM Computing Surveys, 2023.
 * [Github repo: Awesome Video Grounding](https://github.com/NeverMoreLCH/Awesome-Video-Grounding )
   
 ***Representative Papers (before 2023)*:**
@@ -125,10 +125,10 @@ This repository curates a collection of research works specifically focused on l
 * TALL: Temporal activity localization via language query, ICCV 2017.
   
   
-***Latest Papers (after 2023, Todo)*:**
+***Latest Papers (after 2023)*:**
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, Arxiv 2023.
 * ProTeG´e: Untrimmed Pretraining for Video Temporal Grounding by Video ´ Temporal Grounding, CVPR 2023.
-  
+* (TODO)
   
 ##  Long-Term Video Prediction
   
@@ -140,10 +140,10 @@ This repository curates a collection of research works specifically focused on l
   
 ##  Other Tasks
   
-* Relational Space-Time Query in Long-Form Videos, CVPR 2023.
-* XMem: Long-Term Video Object Segmentation with An Atkinson-Shiffrin Memory Model, ECCV 2022.
-* Long-Term Video Question Answering Via Multimodal Hierarchical Memory Attentive Networks, TCSVT 2021.
-* Video Summarization with Long Short-term Memory, ECCV 2016.
+* **[Spatiotemporal Grounding]** Relational Space-Time Query in Long-Form Videos, CVPR 2023.
+* **[Tracking]** XMem: Long-Term Video Object Segmentation with An Atkinson-Shiffrin Memory Model, ECCV 2022.
+* **[VQA]** Long-Term Video Question Answering Via Multimodal Hierarchical Memory Attentive Networks, TCSVT 2021.
+* **[Video summarization]** Video Summarization with Long Short-term Memory, ECCV 2016.
   
   
 ##  Datasets & Tools
@@ -177,7 +177,7 @@ This repository curates a collection of research works specifically focused on l
 * https://github.com/zjr2000/Untrimmed-Video-Feature-Extractor
   
 ##  TODO
-  
+- [ ] add efficient modeling papers and grounding papers
 - [ ] add more details of datasets
 - [ ] add a plot to illustrate differences between untrimmed videos and trimmed videos, and also between different localization tasks
   
