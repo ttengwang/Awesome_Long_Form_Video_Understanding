@@ -1,32 +1,38 @@
 #  Awesome Long-Term Video Understanding
   
   
-Real-world videos are usually long, untrimmed, and contain several actions (events). Traditionally, video understanding has focused on short-term analysis, such as action recognition, video object detection/segmentation, or scene understanding in individual video frames or short video clips. However, with the advent of more advanced technologies and the increasing availability of large-scale video datasets, researchers have started exploring long-term video understanding. It involves developing methods that can recognize and understand complex activities, events, or interactions that unfold over longer durations of time. This includes tasks like temporal action detection, dense video captioning, video grounding, future video prediction, and video summarization, among others.
+Real-world videos are usually long, untrimmed, and contain several actions (events). Traditionally, video understanding has focused on short-term analysis, such as action recognition, video object detection/segmentation, or scene understanding in individual video frames or short video clips. However, with the advent of more advanced technologies and the increasing availability of large-scale video datasets, researchers have started exploring **long-term video understanding**. It involves developing methods that can recognize and understand complex activities, events, or interactions that unfold over longer durations of time. This includes tasks like temporal action detection, dense video captioning, video grounding, future video prediction, and video summarization, among others.
   
 This repository curates a collection of research works specifically focused on long-term videos. This is an active repository and your contributions are always welcome!
   
   
-- [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding)
-  - [Representation Learning](#representation-learning)
-  - [Efficient Modeling in Long-Term Videos](#efficient-modeling-in-long-term-videos)
-  - [Action Localization](#action-localization)
-    - [Temporal Action Localization](#temporal-action-localization)
-    - [Audio-Visual Event Localization](#audio-visual-event-localization)
-  - [Dense Video Captioning](#dense-video-captioning)
-  - [Temporal Video Grounding](#temporal-video-grounding)
-  - [Long-Term Video Prediction](#long-term-video-prediction)
-  - [Other Tasks](#other-tasks)
-  - [Datasets \& Tools](#datasets--tools)
-    - [Long-Term (Untrimmed) Video Datasets](#long-term-untrimmed-video-datasets)
-    - [Video Feature Extractor](#video-feature-extractor)
-  - [TODO](#todo)
+- [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding )
+  - [Representation Learning](#representation-learning )
+  - [Efficient Modeling in Long-Term Videos](#efficient-modeling-in-long-term-videos )
+  - [Action Localization](#action-localization )
+    - [Temporal Action Localization](#temporal-action-localization )
+    - [Audio-Visual Event Localization](#audio-visual-event-localization )
+  - [Dense Video Captioning](#dense-video-captioning )
+  - [Temporal Video Grounding](#temporal-video-grounding )
+  - [Long-Term Video Prediction](#long-term-video-prediction )
+  - [Other Tasks](#other-tasks )
+  - [Datasets & Tools](#datasets--tools )
+    - [Long-Term (Untrimmed) Video Datasets](#long-term-untrimmed-video-datasets )
+    - [Video Feature Extractor](#video-feature-extractor )
+  - [TODO](#todo )
   
 ##  Representation Learning
   
 * HierVL: Learning Hierarchical Video-Language Embeddings, CVPR 2023.
+* Procedure-Aware Pretraining for Instructional Video Understanding, CVPR 2023.
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, arXiv 2023.
 * Temporal Alignment Networks for Long-Term Video, CVPR 2022.
+* Long-form video-language pre-training with multimodal temporal contrastive learning, NIPS 2022.
 * Learning from Untrimmed Videos: Self-Supervised Video Representation Learning with Hierarchical Consistency, CVPR 2022.
+* Unsupervised Pre-training for Temporal Action Localization Tasks, CVPR 2022.
+* Hierarchical Self-supervised Representation Learning for Movie Understanding, CVPR 2022.
+* Egocentric Video-Language Pretraining, NIPS 2022.
+* LocVTP: Video-Text Pre-training for Temporal Localization, ECCV 2022.
 * Boundary-sensitive Pre-training for Temporal Localization in Videos, ICCV 2021.
 * TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks, ICCVW 2021.
 * COOT: Cooperative Hierarchical Transformer for Video-Text Representation Learning, NIPS 2020.
@@ -36,6 +42,7 @@ This repository curates a collection of research works specifically focused on l
   
 * MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition, CVPR 2022.
 * Long-term feature banks for detailed video understanding, CVPR 2019.
+* Multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition, ICCV 2019.
 * (TODO)
   
 ##  Action Localization
@@ -46,15 +53,8 @@ This repository curates a collection of research works specifically focused on l
 * [Github repo: Awesome Weakly Supervised Temporal Action Localization](https://github.com/Pilhyeon/Awesome-Weakly-Supervised-Temporal-Action-Localization )
 * [Github repo: Awesome Temporal Action Localization](https://github.com/Alvin-Zeng/Awesome-Temporal-Action-Localization )
 * [Github repo: Awesome Temporal Action Detection Temporal Action Proposal Generation](https://github.com/zhenyingfang/Awesome-Temporal-Action-Detection-Temporal-Action-Proposal-Generation )
+* [survey] Deep Learning-Based Action Detection in Untrimmed Videos: A Survey, TPAMI 2023.
 * [survey] A survey on temporal action localization, IEEE Access 2020.
-  
-***Latest Papers (after 2023)***
-* ETAD: Training Action Detection End to End on a Laptop, CVPR 2023.
-* TriDet: Temporal Action Detection With Relative Boundary Modeling, CVPR 2023.
-* Distilling Vision-Language Pre-training to Collaborate with Weakly-Supervised Temporal Action Localization, CVPR 2023.
-* Re2TAL: Rewiring Pretrained Video Backbones for Reversible Temporal Action Localization, CVPR 2023.
-* Boosting Weakly-Supervised Temporal Action Localization With Text Information, CVPR 2023.
-* Proposal-based Multiple Instance Learning for Weakly-supervised Temporal Action Localization, CVPR 2023.
   
 ***Representitive Papers (before 2023):***
 * ActionFormer: Localizing Moments of Actions with Transformers, ECCV 2022.
@@ -73,6 +73,16 @@ This repository curates a collection of research works specifically focused on l
 * Single Shot Temporal Action Detection, ACM MM 2017.
 * Temporal action localization in untrimmed videos via multi-stage CNNs, CVPR 2016.
 * Temporal Localization of Actions with Actoms, TPAMI 2014.
+  
+  
+***Latest Papers (after 2023)***
+* ETAD: Training Action Detection End to End on a Laptop, CVPR 2023.
+* TriDet: Temporal Action Detection With Relative Boundary Modeling, CVPR 2023.
+* Distilling Vision-Language Pre-training to Collaborate with Weakly-Supervised Temporal Action Localization, CVPR 2023.
+* Re2TAL: Rewiring Pretrained Video Backbones for Reversible Temporal Action Localization, CVPR 2023.
+* Boosting Weakly-Supervised Temporal Action Localization With Text Information, CVPR 2023.
+* Proposal-based Multiple Instance Learning for Weakly-supervised Temporal Action Localization, CVPR 2023.
+* Deepsegmenter: Temporal action localization for detecting anomalies in untrimmed naturalistic driving videos, CVPR 2023.
   
   
 ###  Audio-Visual Event Localization
@@ -108,13 +118,14 @@ This repository curates a collection of research works specifically focused on l
 ##  Temporal Video Grounding
   
 ***Resources*:**
-* [survey] The Elements of Temporal Sentence Grounding in Videos: A Survey and Future Directions, Arxiv 2022.
+* [survey] Temporal Sentence Grounding in Videos: A Survey and Future Directions, TPAMI 2022.
 * [survey] A survey on temporal sentence grounding in videos, ACM TOMM 2023.
 * [survey] A survey on video moment localization, ACM Computing Surveys, 2023.
 * [Github repo: Awesome Video Grounding](https://github.com/NeverMoreLCH/Awesome-Video-Grounding )
   
 ***Representative Papers (before 2023)*:**
 * Negative sample matters: A renaissance of metric learning for temporal grounding, AAAI 2022.
+* Dense events grounding in video, AAAI 2021.
 * Local-global video-text interactions for temporal grounding, CVPR 2020.
 * Dense regression network for video grounding, CVPR 2020.
 * Learning 2d temporal adjacent networks for moment localization with natural language, AAAI 2020.
@@ -128,10 +139,22 @@ This repository curates a collection of research works specifically focused on l
 ***Latest Papers (after 2023)*:**
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, Arxiv 2023.
 * ProTeG´e: Untrimmed Pretraining for Video Temporal Grounding by Video ´ Temporal Grounding, CVPR 2023.
-* (TODO)
+* Text-visual prompting for efficient 2d temporal video grounding, CVPR 2023.
+* DeCo : Decomposition and Reconstruction for Compositional Temporal Grounding via Coarse-to-Fine Contrastive Ranking, CVPR 2023.
+* Hierarchical Semantic Correspondence Networks for Video Paragraph Grounding, CVPR 2023.
+* Iterative Proposal Refinement for Weakly-Supervised Video Grounding, CVPR 2023.
+* Collaborative Static and Dynamic Vision-Language Streams for Spatio-Temporal Video Grounding, CVPR 2023.
+* You Can Ground Earlier than See: An Effective and Efficient Pipeline for Temporal Sentence Grounding in Compressed Videos, CVPR 2023.
+* Text-Visual Prompting for Efficient 2D Temporal Video Grounding, CVPR 2023.
+* Weakly Supervised Temporal Sentence Grounding with Uncertainty-Guided Self-training, CVPR 2023.
+* Towards Generalisable Video Moment Retrieval: Visual-Dynamic Injection to Image-Text Pre-Training, CVPR 2023.
+* Hierarchical Video-Moment Retrieval and Step-Captioning, CVPR 2023.
+  
+  
   
 ##  Long-Term Video Prediction
   
+* [survey] A Review on Deep Learning Techniques for Video Prediction, TPAMI, 2020. [[paper]](https://arxiv.org/abs/2004.05214 )
 * Revisiting Hierarchical Approach for Persistent Long-Term Video Prediction, ICLR 2021.
 * Hierarchical Long-term Video Prediction Without Supervision, ICML 2018. [[paper]](https://arxiv.org/abs/1806.04768 )
 * Learning to Generate Long-term Future via Hierarchical Prediction, ICML 2017.
@@ -140,6 +163,7 @@ This repository curates a collection of research works specifically focused on l
   
 ##  Other Tasks
   
+* **[Action quality assessment]** LOGO: A Long-Form Video Dataset for Group Action Quality Assessment, CVPR 2023.
 * **[Spatiotemporal Grounding]** Relational Space-Time Query in Long-Form Videos, CVPR 2023.
 * **[Tracking]** XMem: Long-Term Video Object Segmentation with An Atkinson-Shiffrin Memory Model, ECCV 2022.
 * **[VQA]** Long-Term Video Question Answering Via Multimodal Hierarchical Memory Attentive Networks, TCSVT 2021.
@@ -166,18 +190,38 @@ This repository curates a collection of research works specifically focused on l
 | VIOLIN |  | YouTube and TV shows| 6.7k / 15.8k clips | | Video-and-Language Inference | [VIOLIN](https://github.com/jimmy646/violin )
 | HowTo100M | boundaries + captions |  | 1.22M/136M clips | 582h | pretraining | - |
 | YT-temporal180M |  boundaries + captions | - | - | - |  pretraining | - | 
-|EPIC-KITCHENS-100 |
-|HD_VILA_100M|
-  
-  
+|EPIC-KITCHENS| - | - | - | - | - | [epic-kitchens](https://epic-kitchens.github.io/2023 ) | - | 
+|HD_VILA_100M| 
+|FineGym| - | - | - | - | - | [FineGym](https://sdolivia.github.io/FineGym/ ) | - | 
+|MAD| - | - | - | - | - | [MAD](https://github.com/Soldelli/MAD ) | - | 
+|MPII-MD| - | - | - | - | - | [MPII-MD](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/mpii-movie-description-dataset ) | - | 
+|M-VAD| - | - | - | - | - | [M-VAD](https://mila.quebec/en/public-datasets/m-vad/ ) | - | 
+|HACS|  - | - | - | - | - | [HACS](http://hacs.csail.mit.edu/ ) | - | 
+|PKU-MMD| - | - | - | - | - | [PKU-MMD](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html ) | - | 
+|MultiTHUMOS| - | - | - | - | - | [MultiTHUMOS](https://ai.stanford.edu/~syyeung/everymoment.html ) | - | 
+|VideoLT| - | - | - | - | - | [VideoLT](https://github.com/17Skye17/VideoLT ) | 2021 | 
+|Ego4D| - | - | - | - | - | [Ego4D](https://ego4d-data.org/ ) | 2021 | 
+|ActivityNet Entities| - | - | - | - | - | [Anet-Entity](https://github.com/facebookresearch/ActivityNet-Entities ) | 2020 |
+|MovieQA|  - | - | - | - | - | [MoiveQA(expired)](http://movieqa.cs.toronto.edu/home/ ) | 2018 |
+|MultiSports|
+|FineAction|  - | - | - | - | - | [FineAction](https://deeperaction.github.io/datasets/fineaction.html ) | 2022 |
+| MUSES |  - | - | - | - | - | [MUSES](https://songbai.site/muses/ ) | 2021 |
+| XD-Violence |  - | - | - | - | - | [XD-Violence](https://roc-ng.github.io/XD-Violence/ ) | 2020 |
+| TVR |  - | - | - | - | - | [TVR](https://tvr.cs.unc.edu/ ) | 2020 |
+| HIREST |  - | - | - | - | - | [HIREST](https://github.com/j-min/HiREST ) | 2023 |
+| QVHighlights |  - | - | - | - | - | [QVHighlights](https://github.com/jayleicn/moment_detr/blob/main/data/README.md ) | 2020 |
+| ANetQA |  - | - | - | - | - | [ANetQA](https://github.com/MILVLG/anetqa-code ) | 2023 |
   
 ###  Video Feature Extractor
   
   
+  
+* https://github.com/v-iashin/video_features
 * https://github.com/zjr2000/Untrimmed-Video-Feature-Extractor
+* https://github.com/hobincar/pytorch-video-feature-extractor
   
 ##  TODO
-- [ ] add efficient modeling papers and grounding papers
+  
 - [ ] add more details of datasets
 - [ ] add a plot to illustrate differences between untrimmed videos and trimmed videos, and also between different localization tasks
   
