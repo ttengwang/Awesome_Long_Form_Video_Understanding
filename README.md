@@ -44,6 +44,9 @@ This repository curates a collection of research works specifically focused on l
 * Long-term feature banks for detailed video understanding, CVPR 2019.
 * Multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition, ICCV 2019.
 * (TODO)
+
+##  Video Instruction Tuning with Large Lanuage Models
+* (TODO)
   
 ##  Action Localization
   
