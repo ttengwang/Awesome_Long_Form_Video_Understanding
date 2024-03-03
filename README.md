@@ -44,7 +44,12 @@ This repository curates a collection of research works specifically focused on l
 * MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition, CVPR 2022.
 * Long-term feature banks for detailed video understanding, CVPR 2019.
 * Multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition, ICCV 2019.
-* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, 2023.
+***Latest Papers (after 2023)***
+* MovieChat: From Dense Token to Sparse Memory for Long Video Understanding, CVPR 2024.
+* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
+* MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
+* LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
+* LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
 * (TODO)
 
 ##  Video Instruction Tuning with Large Lanuage Models
@@ -53,6 +58,7 @@ This repository curates a collection of research works specifically focused on l
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
 * LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
 * LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
+* (TODO)
   
 ##  Action Localization
   
@@ -234,3 +240,5 @@ This repository curates a collection of research works specifically focused on l
 - [ ] add more details of datasets
 - [ ] add a plot to illustrate differences between untrimmed videos and trimmed videos, and also between different localization tasks
   
+## Draft
+[ Dataset ] Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers, CVPR 2024. 规模大，平均时长超过30s，用于预训练。
