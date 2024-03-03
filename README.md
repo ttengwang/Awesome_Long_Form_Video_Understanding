@@ -9,6 +9,7 @@ This repository curates a collection of research works specifically focused on l
 - [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding )
   - [Representation Learning](#representation-learning )
   - [Efficient Modeling in Long-Term Videos](#efficient-modeling-in-long-term-videos )
+  - [Video Instruction Tuning with Large Lanuage Models](#video-instruction-tuning-with-large-lanuage-models)
   - [Action Localization](#action-localization )
     - [Temporal Action Localization](#temporal-action-localization )
     - [Audio-Visual Event Localization](#audio-visual-event-localization )
