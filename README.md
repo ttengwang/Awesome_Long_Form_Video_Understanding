@@ -50,6 +50,7 @@ This repository curates a collection of research works specifically focused on l
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
 * LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
 * LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
+* MovieLLM: Enhancing Long Video Understanding with AI-Generated Movies
 * (TODO)
 
 ##  Video Instruction Tuning with Large Lanuage Models
