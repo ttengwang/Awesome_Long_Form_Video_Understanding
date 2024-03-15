@@ -47,9 +47,10 @@ This repository curates a collection of research works specifically focused on l
 ***Latest Papers (after 2023)***
 * MovieChat: From Dense Token to Sparse Memory for Long Video Understanding, CVPR 2024.
 * TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
-* MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
+* MVBench (VideoChat2): A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
 * LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
 * LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
+* Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding, 2024.
 * (TODO)
 
 ##  Video Instruction Tuning with Large Lanuage Models
@@ -186,7 +187,10 @@ This repository curates a collection of research works specifically focused on l
   
   
 ##  Datasets & Tools
-  
+***Latest Papers (after 2023)***
+[ Dataset ] Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers, CVPR 2024.
+[ Dataset ] MovieLLM: Enhancing Long Video Understanding with AI-Generated Movies, 2024.
+  A novel framework designed to create synthetic, high-quality data for long videos. This framework leverages the power of GPT-4 and text-to-image models to generate detailed scripts and corresponding visuals.
   
 ###  Long-Term (Untrimmed) Video Datasets
   
@@ -228,19 +232,20 @@ This repository curates a collection of research works specifically focused on l
 | ANetQA |  - | - | - | - | - | [ANetQA](https://github.com/MILVLG/anetqa-code ) | 2023 |
   
 ###  Video Feature Extractor
-  
-  
-  
+
 * https://github.com/v-iashin/video_features
 * https://github.com/zjr2000/Untrimmed-Video-Feature-Extractor
 * https://github.com/hobincar/pytorch-video-feature-extractor
-  
+
+
+##  Benchmarks
+***Latest Papers (after 2023)***
+* TempCompass: Do Video LLMs Really Understand Videos? 2024.
+* MVBench: A Comprehensive Multi-modal Video Understanding Benchmark, CVPR 2024.
+
+
 ##  TODO
   
 - [ ] add more details of datasets
 - [ ] add a plot to illustrate differences between untrimmed videos and trimmed videos, and also between different localization tasks
   
-## Draft
-[ Dataset ] Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers, CVPR 2024. 规模大，平均时长超过30s，用于预训练。
-[ Dataset ] MovieLLM: Enhancing Long Video Understanding with AI-Generated Movies, 2024. 数据生成框架
-  A novel framework designed to create synthetic, high-quality data for long videos. This framework leverages the power of GPT-4 and text-to-image models to generate detailed scripts and corresponding visuals.
