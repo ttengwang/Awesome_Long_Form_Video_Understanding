@@ -40,14 +40,16 @@ This repository curates a collection of research works specifically focused on l
   
 ##  Efficient Modeling in Long-Term Videos
   
-  
 * MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition, CVPR 2022.
 * Long-term feature banks for detailed video understanding, CVPR 2019.
 * Multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition, ICCV 2019.
 * TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, 2023.
-* (TODO)
 
-##  Video Instruction Tuning with Large Lanuage Models
+
+##  Long-Term Video Language Language Models
+* Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning, Arxiv 2024.
+* MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding, CVPR 2024.
+* VideoMosaic: Connecting the Temporal Dots in Long Videos for LLMs, CVPR 2024. 
 * MovieChat: From Dense Token to Sparse Memory for Long Video Understanding, CVPR 2024.
 * TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
