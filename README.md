@@ -9,7 +9,7 @@ This repository curates a collection of research works specifically focused on l
 - [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding )
   - [Representation Learning](#representation-learning )
   - [Efficient Modeling in Long-Term Videos](#efficient-modeling-in-long-term-videos )
-  - [Video Instruction Tuning with Large Lanuage Models](#video-instruction-tuning-with-large-lanuage-models)
+  - [Long-Term Video Large Language Models](#long-term-video-large-language-models)
   - [Action Localization](#action-localization )
     - [Temporal Action Localization](#temporal-action-localization )
     - [Audio-Visual Event Localization](#audio-visual-event-localization )
@@ -46,7 +46,7 @@ This repository curates a collection of research works specifically focused on l
 * TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, 2023.
 
 
-##  Long-Term Video Language Language Models
+##  Long-Term Video Large Language Models
 * Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning, Arxiv 2024.
 * MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding, CVPR 2024.
 * VideoMosaic: Connecting the Temporal Dots in Long Videos for LLMs, CVPR 2024. 
