@@ -47,6 +47,7 @@ This repository curates a collection of research works specifically focused on l
 
 
 ##  Long-Term Video Large Language Models
+* VTimeLLM: Empower LLM to Grasp Video Moments, CVPR 2024.
 * Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning, Arxiv 2024.
 * MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding, CVPR 2024.
 * VideoMosaic: Connecting the Temporal Dots in Long Videos for LLMs, CVPR 2024. 
