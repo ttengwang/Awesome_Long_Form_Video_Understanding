@@ -9,7 +9,7 @@ This repository curates a collection of research works specifically focused on l
 - [Awesome Long-Term Video Understanding](#awesome-long-term-video-understanding )
   - [Representation Learning](#representation-learning )
   - [Efficient Modeling in Long-Term Videos](#efficient-modeling-in-long-term-videos )
-  - [Video Instruction Tuning with Large Lanuage Models](#video-instruction-tuning-with-large-lanuage-models)
+  - [Long-Term Video Large Language Models](#long-term-video-large-language-models)
   - [Action Localization](#action-localization )
     - [Temporal Action Localization](#temporal-action-localization )
     - [Audio-Visual Event Localization](#audio-visual-event-localization )
@@ -40,20 +40,17 @@ This repository curates a collection of research works specifically focused on l
   
 ##  Efficient Modeling in Long-Term Videos
   
-  
 * MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition, CVPR 2022.
 * Long-term feature banks for detailed video understanding, CVPR 2019.
 * Multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition, ICCV 2019.
-***Latest Papers (after 2023)***
-* MovieChat: From Dense Token to Sparse Memory for Long Video Understanding, CVPR 2024.
-* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
-* MVBench (VideoChat2): A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
-* LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
-* LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
-* Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding, 2024.
-* (TODO)
+* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, 2023.
 
-##  Video Instruction Tuning with Large Lanuage Models
+
+##  Long-Term Video Large Language Models
+* VTimeLLM: Empower LLM to Grasp Video Moments, CVPR 2024.
+* Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning, Arxiv 2024.
+* MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding, CVPR 2024.
+* VideoMosaic: Connecting the Temporal Dots in Long Videos for LLMs, CVPR 2024. 
 * MovieChat: From Dense Token to Sparse Memory for Long Video Understanding, CVPR 2024.
 * TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
