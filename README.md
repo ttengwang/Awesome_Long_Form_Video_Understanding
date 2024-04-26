@@ -43,10 +43,12 @@ This repository curates a collection of research works specifically focused on l
 * MeMViT: Memory-Augmented Multiscale Vision Transformer for Efficient Long-Term Video Recognition, CVPR 2022.
 * Long-term feature banks for detailed video understanding, CVPR 2019.
 * Multi-agent reinforcement learning based frame sampling for effective untrimmed video recognition, ICCV 2019.
-* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, 2023.
+* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
+* OmniVid: A Generative Framework for Universal Video Understanding, CVPR 2024.  
 
 
 ##  Long-Term Video Large Language Models
+* Language Repository for Long Video Understanding, 2024.
 * VTimeLLM: Empower LLM to Grasp Video Moments, CVPR 2024.
 * Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning, Arxiv 2024.
 * MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding, CVPR 2024.
@@ -56,7 +58,10 @@ This repository curates a collection of research works specifically focused on l
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
 * LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
 * LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
-* VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding, 2024
+* [Agent] MM-Narrator: Narrating Long-form Videos with Multimodal In-Context Learning, CVPR 2024.
+* [Agent] VideoAgent: Long-form Video Understanding with Large Language Model as Agent, 2024.
+* [Agent] VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding, 2024.
+* (TODO)
   
 ##  Action Localization
   
@@ -106,7 +111,8 @@ This repository curates a collection of research works specifically focused on l
   
   
 ##  Dense Video Captioning
-  
+
+* Video ReCap: Recursive Captioning of Hour-Long Videos, CVPR 2024.  
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, arXiv 2023.
 * Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning, CVPR 2023. [[code]](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq )
 * Unifying event detection and captioning as sequence generation via pre-training, ECCV 2022.
@@ -184,7 +190,10 @@ This repository curates a collection of research works specifically focused on l
   
   
 ##  Datasets & Tools
-  
+***Latest Papers (after 2023)***
+[ Dataset ] Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers, CVPR 2024.
+[ Dataset ] MovieLLM: Enhancing Long Video Understanding with AI-Generated Movies, 2024.
+  A novel framework designed to create synthetic, high-quality data for long videos. This framework leverages the power of GPT-4 and text-to-image models to generate detailed scripts and corresponding visuals.
   
 ###  Long-Term (Untrimmed) Video Datasets
   
@@ -226,13 +235,18 @@ This repository curates a collection of research works specifically focused on l
 | ANetQA |  - | - | - | - | - | [ANetQA](https://github.com/MILVLG/anetqa-code ) | 2023 |
   
 ###  Video Feature Extractor
-  
-  
-  
+
 * https://github.com/v-iashin/video_features
 * https://github.com/zjr2000/Untrimmed-Video-Feature-Extractor
 * https://github.com/hobincar/pytorch-video-feature-extractor
-  
+
+
+##  Benchmarks
+***Latest Papers (after 2023)***
+* TempCompass: Do Video LLMs Really Understand Videos? 2024.
+* MVBench: A Comprehensive Multi-modal Video Understanding Benchmark, CVPR 2024.
+
+
 ##  TODO
   
 - [ ] add more details of datasets
