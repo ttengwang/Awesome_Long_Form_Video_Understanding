@@ -240,6 +240,8 @@ This repository curates a collection of research works specifically focused on l
 
 ***Latest Papers (after 2023)***
 
+* Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis,2024
+* CinePile: A Long Video Question Answering Dataset and Benchmark,2024
 * TempCompass: Do Video LLMs Really Understand Videos? 2024.
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark, CVPR 2024.
 * How Good is my Video LMM? Complex Video Reasoning and Robustness Evaluation Suite for Video-LMMs, 2024
