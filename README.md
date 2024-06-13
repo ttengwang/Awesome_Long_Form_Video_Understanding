@@ -59,7 +59,12 @@ This repository curates a collection of research works specifically focused on l
 * [Agent] MM-Narrator: Narrating Long-form Videos with Multimodal In-Context Learning, CVPR 2024.
 * [Agent] VideoAgent: Long-form Video Understanding with Large Language Model as Agent, 2024.
 * [Agent] VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding, 2024.
-* (TODO)
+* [Agent] ViLA: Efficient Video-Language Alignment for Video Question Answering, 2024.
+* [Agent] Self-chained image-language model for video localization and question answering, 2024.
+* [Agent] VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos, 2024.
+* Encoding and Controlling Global Semantics for Long-form Video Question Answering, 2024.
+* 
+
 
 ## Action Localization
 
