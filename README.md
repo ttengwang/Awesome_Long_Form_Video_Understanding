@@ -245,6 +245,7 @@ This repository curates a collection of research works specifically focused on l
 * TempCompass: Do Video LLMs Really Understand Videos? 2024.
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark, CVPR 2024.
 * How Good is my Video LMM? Complex Video Reasoning and Robustness Evaluation Suite for Video-LMMs, 2024
+* MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding [Arxiv](https://arxiv.org/abs/2406.04264)
 
 ## TODO
 
