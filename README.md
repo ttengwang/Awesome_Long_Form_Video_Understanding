@@ -244,7 +244,7 @@ This repository curates a collection of research works specifically focused on l
 ## Benchmarks
 
 ***Latest Papers (after 2023)***
-
+* (202406)[**VideoHallucer**: Evaluating Intrinsic and Extrinsic Hallucinations in Large Video-Language Models](https://arxiv.org/abs/2406.16338), arXiv[![arXiv](https://img.shields.io/badge/arXiv-2406.16338-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2406.16338)
 * Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis,2024
 * CinePile: A Long Video Question Answering Dataset and Benchmark,2024
 * TempCompass: Do Video LLMs Really Understand Videos? 2024.
