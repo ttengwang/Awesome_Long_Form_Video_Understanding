@@ -22,6 +22,7 @@ This repository curates a collection of research works specifically focused on l
 
 ## Representation Learning
 
+* Multi-granularity Correspondence Learning from Long-term Noisy Videos, ICLR 2024.
 * HierVL: Learning Hierarchical Video-Language Embeddings, CVPR 2023.
 * Procedure-Aware Pretraining for Instructional Video Understanding, CVPR 2023.
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, arXiv 2023.
