@@ -55,7 +55,7 @@ This repository curates a collection of research works specifically focused on l
 * TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark (VideoChat2), CVPR 2024.
 * LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs, 2024.
-* LSTP: Language-guided Spatial-Temporal Prompt Learning for Long-form Video-Text Understanding, 2024.
+* Efficient Temporal Extrapolation of Multimodal Large Language Models with Temporal Grounding Bridge, EMNLP 2024.
 * [Agent] MM-Narrator: Narrating Long-form Videos with Multimodal In-Context Learning, CVPR 2024.
 * [Agent] VideoAgent: Long-form Video Understanding with Large Language Model as Agent, 2024.
 * [Agent] VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding, 2024.
