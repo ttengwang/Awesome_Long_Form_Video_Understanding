@@ -163,6 +163,14 @@ This repository curates a collection of research works specifically focused on l
 
 ***Latest Papers (after 2023)*:**
 
+* Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding, NuerIPS 2025.
+* Grounded-VideoLLM: Sharpening Fine-grained Temporal Grounding in Video Large Language Models, EMNLP 2025.
+* TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding, ICCV 2025.
+* VTG-LLM: Integrating Timestamp Knowledge into Video LLMs for Enhanced Video Temporal Grounding, AAAI 2025.
+* TRACE: Temporal Grounding Video LLM via Causal Event Modeling, ICLR 2025.
+* TimeRefine: Temporal Grounding with Time Refining Video LLM, Arxiv 2024.
+* VTimeLLM: Empower LLMtoGraspVideo Moments, CVPR 2024.
+* TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding, CVPR 2024.
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, Arxiv 2023.
 * ProTeG´e: Untrimmed Pretraining for Video Temporal Grounding by Video ´ Temporal Grounding, CVPR 2023.
 * Text-visual prompting for efficient 2d temporal video grounding, CVPR 2023.
