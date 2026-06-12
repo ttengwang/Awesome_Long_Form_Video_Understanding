@@ -255,6 +255,7 @@ This repository curates a collection of research works specifically focused on l
 * MVBench: A Comprehensive Multi-modal Video Understanding Benchmark, CVPR 2024.
 * How Good is my Video LMM? Complex Video Reasoning and Robustness Evaluation Suite for Video-LMMs, 2024
 * MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding [Arxiv](https://arxiv.org/abs/2406.04264)
+* [**GameplayQA**: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](https://arxiv.org/abs/2603.24329), ACL 2026 [![arXiv](https://img.shields.io/badge/arXiv-2603.24329-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2603.24329) [[Proj Page]](https://hats-ict.github.io/gameplayqa/) [[Code]](https://github.com/HATS-ICT/GameplayQA) [[Data]](https://huggingface.co/datasets/wangyz1999/GameplayQA)
 
 ## TODO
 
