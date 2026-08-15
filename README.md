@@ -46,6 +46,7 @@ This repository curates a collection of research works specifically focused on l
 * OmniVid: A Generative Framework for Universal Video Understanding, CVPR 2024.
 
 ## Long-Term Video Large Language Models
+* [**VidGround**: Watch Before You Answer: Learning from Visually Grounded Post-Training](https://arxiv.org/abs/2604.05117) [[Code](https://github.com/reacher-z/vidground)], arXiv 2026
 * [Towards Long Video Understanding via Fine-detailed Video Story Generation, TCSVT 2024](https://arxiv.org/pdf/2412.06182v2)
 * [Agent] [**Ego-R1**: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/pdf/2506.13654) [![Star](https://img.shields.io/github/stars/egolife-ai/Ego-R1.svg?style=social&label=Star)](https://github.com/egolife-ai/Ego-R1), arXiv 2025
 * [**VideoINSTA**: Zero-shot Long Video Understanding via Informative Spatial-Temporal Reasoning with LLMs](https://www.arxiv.org/abs/2409.20365), EMNLP 2024[![EMNLP](https://img.shields.io/badge/EMNLP-2024-blue.svg?style=plastic)](https://www.arxiv.org/abs/2409.20365)
