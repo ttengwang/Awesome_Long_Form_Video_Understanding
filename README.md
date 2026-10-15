@@ -46,6 +46,11 @@ This repository curates a collection of research works specifically focused on l
 * OmniVid: A Generative Framework for Universal Video Understanding, CVPR 2024.
 
 ## Long-Term Video Large Language Models
+
+* [VideoJev: System One Model for Video Understanding and Interaction](https://arxiv.org/abs/2610.18615), arXiv 2026. [[Code]](https://github.com/MCG-NJU/VideoJev)
+* [OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction](https://arxiv.org/abs/2610.01762), arXiv 2026. [[Code]](https://github.com/MCG-NJU/OneStreamer)
+* [VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding](https://arxiv.org/abs/2607.14935), arXiv 2026. [[Code]](https://github.com/MCG-NJU/VideoChat3)
+* [Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224), ICML 2026. [[Code]](https://github.com/MCG-NJU/Video-o3)
 * [Towards Long Video Understanding via Fine-detailed Video Story Generation, TCSVT 2024](https://arxiv.org/pdf/2412.06182v2)
 * [Agent] [**Ego-R1**: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/pdf/2506.13654) [![Star](https://img.shields.io/github/stars/egolife-ai/Ego-R1.svg?style=social&label=Star)](https://github.com/egolife-ai/Ego-R1), arXiv 2025
 * [**VideoINSTA**: Zero-shot Long Video Understanding via Informative Spatial-Temporal Reasoning with LLMs](https://www.arxiv.org/abs/2409.20365), EMNLP 2024[![EMNLP](https://img.shields.io/badge/EMNLP-2024-blue.svg?style=plastic)](https://www.arxiv.org/abs/2409.20365)
@@ -162,6 +167,8 @@ This repository curates a collection of research works specifically focused on l
 * TALL: Temporal activity localization via language query, ICCV 2017.
 
 ***Latest Papers (after 2023)*:**
+
+* [TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2607.17423), arXiv 2026. [[Code]](https://github.com/MCG-NJU/TimeLens2)
 
 * Learning Grounded Vision-Language Representation for Versatile Understanding in Untrimmed Videos, Arxiv 2023.
 * ProTeG´e: Untrimmed Pretraining for Video Temporal Grounding by Video ´ Temporal Grounding, CVPR 2023.
